@@ -46,7 +46,7 @@
                     if (result.code == 0) {
                         html = '';
                         for (var p in result.data) {
-                            html = html + "<option class=\"continents\" value=" + result.data[p].ename + " data-id=" + result.data[p].id + ">" + result.data[p].name + "（" + result.data[p].ename + "）</option>";
+                            html = html + "<option class=\"continents\" value=" + result.data[p].ename + " data-id=" + result.data[p].id + ">" + result.data[p].name + "</option>";
                         }
                         $('#continents').html(html);
                         $('#continents_count').text('(' + result.total + ')');

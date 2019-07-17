@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2019-07-17 02:52:24
+-- Generation Time: 2019-07-17 03:41:39
 -- 服务器版本： 5.6.10
 -- PHP Version: 7.1.23
 
@@ -8904,18 +8904,18 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (183, 0, '0', 'BV', '', '布维特岛', '', 'Bouvet Island', '', 4),
 (184, 0, '0', 'BB', '', '巴巴多斯', '', 'Barbados', '', 6),
 (185, 0, '0', 'CV', '', '佛得角', '', 'Cabo Verde', '', 1),
-(186, 0, '0', 'GY', '', '圭亚那', '', 'Guyana', '', 7),
-(187, 0, '0', 'GF', '', '法属圭亚那', '', 'French Guiana', '', 7),
-(188, 0, '0', 'SR', '', '苏里南', '', 'Suriname', '', 7),
-(189, 0, '0', 'BR', '', '巴西', '', 'Brazil', '', 7),
+(186, 0, '328', 'GY', 'GUY', '圭亚那', '圭亚那合作共和国', 'Guyana', 'the Co-operative Republic of Guyana', 7),
+(187, 1, '254', 'GF', 'GUF', '法属圭亚那', '法属圭亚那', 'French Guiana', 'French Guiana', 7),
+(188, 0, '740', 'SR', 'SUR', '苏里南', '苏里南共和国', 'Suriname', 'the Republic of Suriname', 7),
+(189, 0, '076', 'BR', 'BRA', '巴西', '巴西联邦共和国', 'Brazil', 'the Federative Republic of Brazil', 7),
 (190, 0, '0', 'GL', '', '格陵兰', '', 'Greenland', '', 6),
 (191, 0, '0', 'PM', '', '圣皮埃尔和密克隆', '', 'Saint Pierre and Miquelon', '', 6),
 (192, 0, '0', 'GS', '', '南乔治亚岛和南桑威齐群岛', '', 'South Georgia and the South Sandwich Islands', '', 4),
-(193, 0, '0', 'FK', '', '福克兰群岛', '', 'Falkland Islands', '', 7),
-(194, 0, '0', 'AR', '', '阿根廷', '', 'Argentina', '', 7),
-(195, 0, '0', 'PY', '', '巴拉圭', '', 'Paraguay', '', 7),
-(196, 0, '0', 'UY', '', '乌拉圭', '', 'Uruguay', '', 7),
-(197, 0, '0', 'VE', '', '委内瑞拉', '', 'Venezuela', '', 7),
+(193, 1, '238', 'FK', 'FLK', '马尔维纳斯群岛', '福克兰群岛（英）', 'Falkland Islands', 'Falkland Islands', 7),
+(194, 0, '032', 'AR', 'ARG', '阿根廷', '阿根廷共和国', 'Argentina', 'the Argentine Republic', 7),
+(195, 0, '600', 'PY', 'PRY', '巴拉圭', '巴拉圭共和国', 'Paraguay', 'the Republic of Paraguay', 7),
+(196, 0, '858', 'UY', 'URY', '乌拉圭', '乌拉圭东岸共和国', 'Uruguay', 'the Oriental Republic of Uruguay', 7),
+(197, 0, '862', 'VE', 'VEN', '委内瑞拉', '委内瑞拉玻利瓦尔共和国', 'Venezuela', 'the Bolivarian Republic of Venezuela', 7),
 (198, 0, '0', 'MX', '', '墨西哥', '', 'Mexico', '', 6),
 (199, 0, '0', 'JM', '', '牙买加', '', 'Jamaica', '', 6),
 (200, 0, '0', 'DO', '', '多米尼加共和国', '', 'Dominican Republic', '', 6),
@@ -8948,13 +8948,13 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (227, 0, '0', 'HN', '', '洪都拉斯', '', 'Honduras', '', 6),
 (228, 0, '0', 'NI', '', '尼加拉瓜', '', 'Nicaragua', '', 6),
 (229, 0, '0', 'CR', '', '哥斯达黎加', '', 'Costa Rica', '', 6),
-(230, 0, '0', 'EC', '', '厄瓜多尔', '', 'Ecuador', '', 7),
-(231, 0, '0', 'CO', '', '哥伦比亚', '', 'Colombia', '', 7),
-(232, 0, '0', 'PE', '', '秘鲁', '', 'Peru', '', 7),
+(230, 0, '218', 'EC', 'ECU', '厄瓜多尔', '厄瓜多尔共和国', 'Ecuador', ' the Republic of Ecuador', 7),
+(231, 0, '170', 'CO', 'COL', '哥伦比亚', '哥伦比亚共和国', 'Colombia', 'the Republic of Colombia', 7),
+(232, 0, '604', 'PE', 'PER', '秘鲁', '秘鲁共和国', 'Peru', 'the Republic of Peru', 7),
 (233, 0, '0', 'PA', '', '巴拿马', '', 'Panama', '', 6),
 (234, 0, '0', 'HT', '', '海地', '', 'Haiti', '', 6),
-(235, 0, '0', 'CL', '', '智利', '', 'Chile', '', 7),
-(236, 0, '0', 'BO', '', '玻利维亚', '', 'Bolivia', '', 7),
+(235, 0, '152', 'CL', 'CHL', '智利', '智利共和国', 'Chile', ' the Republic of Chile', 7),
+(236, 0, '068', 'BO', 'BOL', '玻利维亚', '多民族玻利维亚国', 'Bolivia', 'the Plurinational State of Bolivia', 7),
 (237, 0, '0', 'PF', '', '法属波利尼西亚', '', 'French Polynesia', '', 5),
 (238, 0, '0', 'PN', '', '皮特凯恩群岛', '', 'Pitcairn Islands', '', 5),
 (239, 0, '0', 'TK', '', '托克劳', '', 'Tokelau', '', 5),
@@ -8970,7 +8970,8 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (249, 0, '0', 'UM', '', '美国边远小岛', '', 'U.S. Minor Outlying Islands', '', 5),
 (250, 0, '0', 'AS', '', '美属萨摩亚', '', 'American Samoa', '', 5),
 (251, 0, '0', 'CA', '', '加拿大', '', 'Canada', '', 6),
-(253, 0, '0', 'AQ', '', '南极洲', '', 'Antarctica', '', 4);
+(253, 0, '0', 'AQ', '', '南极洲', '', 'Antarctica', '', 4),
+(256, 0, '', '', '', '', '', NULL, '', 0);
 
 -- --------------------------------------------------------
 
@@ -9511,7 +9512,7 @@ ALTER TABLE `continents`
 -- 使用表AUTO_INCREMENT `countries`
 --
 ALTER TABLE `countries`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=256;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=257;
 --
 -- 使用表AUTO_INCREMENT `states`
 --
