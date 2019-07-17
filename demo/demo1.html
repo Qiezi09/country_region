@@ -68,7 +68,12 @@
                         if (result.code == 0) {
                             html = '';
                             for (var p in result.data) {
-                                title = "数字代码：" + result.data[p].iso_numeric + "&#13;";
+                                type = '国家';
+                                if (result.data[p].country_or_region == 1) {
+                                    type = '地区';
+                                }
+                                title = "性质：" + type + "&#13;";
+                                title += "数字代码：" + result.data[p].iso_numeric + "&#13;";
                                 title += "两字母代码：" + result.data[p].iso_code_2 + "&#13;";
                                 title += "三字母代码：" + result.data[p].iso_code_3 + "&#13;";
                                 title += "中文简称：" + result.data[p].cn_name + "&#13;";
