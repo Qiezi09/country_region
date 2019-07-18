@@ -204,6 +204,32 @@ the People's Republic of China
 >
 > ——摘自维基百科，更多阅读：[西撒哈拉](https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%92%92%E5%93%88%E6%8B%89)
 
+南极洲
+
+1.赫德岛和麦克唐纳群岛
+
+> 赫德岛和麦克唐纳群岛（英语：Heard Island and McDonald Islands，简称：HIMI），南冰洋无人居住的荒岛，1947年起纳入澳大利亚海外领地，1997年获选为世界自然遗产（亚洲、大洋洲地区）。以南约1600公里达南极洲边沿。除去南极洲和面积小于1000平公方公里的岛屿不算，方圆3700公里内都是海洋，不见陆地。1997年获选为世界自然遗产（亚洲、大洋洲地区）。
+> 
+> ——摘自百度百科，更多阅读：[赫德岛和麦克唐纳群岛](https://baike.baidu.com/item/%E8%B5%AB%E5%BE%B7%E5%B2%9B%E5%92%8C%E9%BA%A6%E5%85%8B%E5%94%90%E7%BA%B3%E7%BE%A4%E5%B2%9B)
+
+2.南乔治亚岛和南桑威奇群岛
+
+> 南乔治亚岛和南桑威奇群岛（South Georgia and The South Sandwich Islands，缩写为SGSSI），国际域名缩写：gs，货币单位：英镑（GBP）。为英国在大西洋南部的海外属地。该属地由一连串既偏远且荒凉的岛屿组成，其中包括南乔治亚以及南桑威奇群岛。福克兰群岛的总督兼任本群岛的民事专员。
+>
+> ——摘自百度百科，更多阅读：[南乔治亚岛和南桑威奇群岛](https://baike.baidu.com/item/%E5%8D%97%E4%B9%94%E6%B2%BB%E4%BA%9A%E5%B2%9B%E5%92%8C%E5%8D%97%E6%A1%91%E5%A8%81%E5%A5%87%E7%BE%A4%E5%B2%9B)
+
+3.法属南部领地
+
+> 法属南部和南极领地（法语：Terres australes et antarctiques françaises，缩写为TAAF）简称法属南部领地，是法国的一个海外领地。
+>
+> ——摘自维基百科，更多阅读：[法属南部和南极领地](https://zh.wikipedia.org/wiki/%E6%B3%95%E5%B1%9E%E5%8D%97%E9%83%A8%E5%92%8C%E5%8D%97%E6%9E%81%E9%A2%86%E5%9C%B0)
+
+4.罗维特岛
+
+> 罗维特岛是南极洲的岛屿，属于南设得兰群岛的一部分，位于南冰洋海域，长0.8公里，岛上无人居住，英国、阿根廷和智利在南极条约体系下搁置对该群岛的领土主权要求。
+>
+> ——摘自维基百科，更多阅读：[罗维特岛](https://zh.wikipedia.org/wiki/%E7%BE%85%E7%B6%AD%E7%89%B9%E5%B3%B6)
+
 -------------
 
 附录1
@@ -219,3 +245,4 @@ ISO 3166-1提供了国家地区代码的三种表现方式，具体包括：
 1. [中华人民共和国人力资源和社会保障部-国家和地区代码列表（下载）](http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/Jbgcbiaozhunguifan/201112/t20111206_47429.html)
 2. [countrycode](https://countrycode.org/)
 3. [中国外交部官方网站公布的国家和组织](https://www.fmprc.gov.cn/web/gjhdq_676201/)
+4. [COUNTRY CODES ALPHA-2 & ALPHA-3](https://www.iban.com/country-codes)

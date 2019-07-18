@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2019-07-18 06:49:20
+-- Generation Time: 2019-07-18 07:32:48
 -- 服务器版本： 5.6.10
 -- PHP Version: 7.1.23
 
@@ -8815,8 +8815,8 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (94, 0, '104', 'MM', 'MMR', '缅甸', '缅甸联邦共和国', 'Myanmar', 'The Republic of the Union of Myanmar', 2),
 (95, 0, '496', 'MN', 'MNG', '蒙古', '蒙古国', 'Mongolia', 'Mongolia', 2),
 (96, 0, '417', 'KG', 'KGZ', '吉尔吉斯斯坦', '吉尔吉斯共和国', 'Kyrgyzstan', 'The Kyrgyz Republic', 2),
-(97, 0, '0', 'TF', '', '法属南部领土', '', 'French Southern Territories', '', 4),
-(98, 0, '0', 'HM', '', '赫德与麦克唐纳群岛', '', 'Heard Island and McDonald Islands', '', 4),
+(97, 1, '260', 'TF', 'ATF', '法属南部领地', '法属南部和南极领地', 'French Southern Territories', 'French Southern Territories', 4),
+(98, 1, '334', 'HM', 'HMD', '赫德岛和麦克唐纳群岛', '赫德岛和麦克唐纳群岛', 'Heard Island and McDonald Islands', 'Heard Island and McDonald Islands', 4),
 (99, 1, '166', 'CC', 'CCK', '科科斯群岛', '科科斯基林群岛', 'Cocos Islands', 'Cocos [Keeling] Islands', 2),
 (100, 0, '0', 'PW', '', '帕劳', '', 'Palau', '', 5),
 (101, 0, '704', 'VN', 'VNM', '越南', '越南社会主义共和国', 'Vietnam', 'The Socialist Republic of Vietnam', 2),
@@ -8901,7 +8901,7 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (180, 0, '0', 'HR', '', '克罗地亚', '', 'Croatia', '', 3),
 (181, 0, '0', 'BA', '', '波斯尼亚和黑山共和国', '', 'Bosnia and Herzegovina', '', 3),
 (182, 0, '0', 'SI', '', '斯洛文尼亚', '', 'Slovenia', '', 3),
-(183, 0, '0', 'BV', '', '布维特岛', '', 'Bouvet Island', '', 4),
+(183, 1, '074', 'BV', 'BVT', '罗维特岛', '罗维特岛', 'Bouvet Island', 'Bouvet Island', 4),
 (184, 0, '0', 'BB', '', '巴巴多斯', '', 'Barbados', '', 6),
 (185, 0, '132', 'CV', 'CPV', '佛得角', '佛得角共和国', 'Cabo Verde', 'The Republic of Cabo Verde', 1),
 (186, 0, '328', 'GY', 'GUY', '圭亚那', '圭亚那合作共和国', 'Guyana', 'The Co-operative Republic of Guyana', 7),
@@ -8910,7 +8910,7 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (189, 0, '076', 'BR', 'BRA', '巴西', '巴西联邦共和国', 'Brazil', 'The Federative Republic of Brazil', 7),
 (190, 0, '0', 'GL', '', '格陵兰', '', 'Greenland', '', 6),
 (191, 0, '0', 'PM', '', '圣皮埃尔和密克隆', '', 'Saint Pierre and Miquelon', '', 6),
-(192, 0, '0', 'GS', '', '南乔治亚岛和南桑威齐群岛', '', 'South Georgia and the South Sandwich Islands', '', 4),
+(192, 1, '239', 'GS', 'SGS', '南乔治亚岛和南桑威齐群岛', '南乔治亚岛和南桑威齐群岛', 'South Georgia and the South Sandwich Islands', 'South Georgia and the South Sandwich Islands', 4),
 (193, 1, '238', 'FK', 'FLK', '马尔维纳斯群岛', '福克兰群岛（英）', 'Falkland Islands', 'Falkland Islands', 7),
 (194, 0, '032', 'AR', 'ARG', '阿根廷', '阿根廷共和国', 'Argentina', 'The Argentine Republic', 7),
 (195, 0, '600', 'PY', 'PRY', '巴拉圭', '巴拉圭共和国', 'Paraguay', 'The Republic of Paraguay', 7),
@@ -8970,8 +8970,7 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (249, 1, '581', 'UM', 'UMI', '美国本土外小岛屿', '美国本土外小岛屿（美）', 'U.S. Minor Outlying Islands', 'The United States Minor Outlying Islands', 5),
 (250, 1, '016', 'AS', 'ASM', '美属萨摩亚', '美属萨摩亚', 'American Samoa', 'American Samoa', 5),
 (251, 0, '0', 'CA', '', '加拿大', '', 'Canada', '', 6),
-(253, 0, '0', 'AQ', '', '南极洲', '', 'Antarctica', '', 4),
-(256, 0, '', '', '', '', '', NULL, '', 0);
+(253, 1, '010', 'AQ', 'ATA', '南极洲', '南极洲', 'Antarctica', 'Antarctica', 4);
 
 -- --------------------------------------------------------
 
@@ -9512,7 +9511,7 @@ ALTER TABLE `continents`
 -- 使用表AUTO_INCREMENT `countries`
 --
 ALTER TABLE `countries`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=257;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=258;
 --
 -- 使用表AUTO_INCREMENT `states`
 --
