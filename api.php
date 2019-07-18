@@ -13,6 +13,16 @@ $config = [
 ];
 $connection = new Mysql($config);
 $type = !empty($_GET['type']) ? $_GET['type'] : '';
+if ($type == 'all_countries') {
+    $rows = $connection->fetchAll(
+        "SELECT * FROM countries ORDER BY `cn_name` ASC",
+        \Phalcon\Db::FETCH_ASSOC
+    );
+    $total = $connection->fetchColumn("SELECT count(*) FROM countries");
+    $return = ['code' => 0, 'data' => $rows, 'total' => $total];
+    echo json_encode($return);
+}
+
 //大洲
 if ($type == 'continents') {
     $rows = $connection->fetchAll(
