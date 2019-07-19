@@ -36,7 +36,59 @@ the People's Republic of China
 
 ### demo
 
-[大洲，国家，州，城市4级联动](/demo/demo1.html)
+1. [全部国家和地区](/demo/demo2.html)
+2. [大洲，国家，州，城市4级联动](/demo/demo1.html)
+
+### 欧洲
+
+总计：45个国家，8个地区
+
+1.黑山还是黑山共和国？
+
+> The name “Republic to Montenegro” refers to the period when Montenegro was part of the Federal Republic of Yugoslavia or the State Union of Serbia and Montenegro. The name was still used upon independence in 2006, but the official name “Montenegro” was prescribed in the Constitution which was adopted in December 2007.
+> 
+> 翻译如下：“黑山共和国”是指黑山是南斯拉夫联邦共和国或塞尔维亚和黑山国家联盟的一部分的时期。2006年独立时仍然使用该名称，但2007年12月通过的“宪法”规定了“黑山”的正式名称。
+>
+> ——摘自[Montenegro Or The Republic Of Montenegro?](http://senat.me/en/montenegro-republic-montenegro/)
+
+2.直布罗陀
+
+> 直布罗陀（英语：Gibraltar）是14个英国海外领土之一，也是最小的一个，位于伊比利亚半岛的末端，是通往地中海的入口
+>
+> ——摘自维基百科，更多阅读：[直布罗陀](https://zh.wikipedia.org/wiki/%E7%9B%B4%E5%B8%83%E7%BD%97%E9%99%80)
+
+3.格恩西岛
+
+> 根西（英语：Guernsey），是英国的王权属地之一，位于英吉利海峡靠近法国海岸线的海峡群岛之中，同泽西外各岛岛组成了“根西行政区”（Bailiwick of Guernsey），首府为圣彼得港。行政区总面积有78平方千米，其人口（截至2004年）已达65,031人。
+> 根据以上解释，确认使用根西这个名称。
+>
+> ——摘自维基百科，更多阅读：[根西](https://zh.wikipedia.org/wiki/%E6%A0%B9%E8%A5%BF)
+
+4.马恩岛
+
+> 马恩岛（英语：Isle of Man，马恩语：Ellan Vannin，简称“Mann”）位于英格兰与爱尔兰之间的海上岛屿，而从更精确的地理角度来看，马恩岛正地处于英格兰、苏格兰、威尔士、北爱尔兰和爱尔兰共和国的中心点。马恩岛是英国王权属地，严格来说在法律上并不是英国的一部分。该岛的自治政府历史悠久，早在10世纪就已经有自己的国会，首府为道格拉斯（Douglas）。
+>
+> ——摘自维基百科，更多阅读：[马恩岛](https://zh.wikipedia.org/wiki/%E6%9B%BC%E5%B3%B6)
+
+5.泽西岛
+
+> 泽西（Jersey），是英国皇家属地，位于诺曼地半岛外海20公里处的海面上，是英吉利海峡靠近法国海岸线的海峡群岛里，面积与人口数都最大的一座。泽西岛与周边两座无人岛群——曼逵尔（Minquiers）与艾逵胡（Ecréhous）共同组成泽西行政区（Bailiwick of Jersey），是英国的王权属地而非英国本土的一部分。
+>
+> ——摘自百度百科，更多阅读：[泽西岛](https://baike.baidu.com/item/%E6%B3%BD%E8%A5%BF%E5%B2%9B)
+
+5.科索沃
+
+> 有一个国家从2008年独立到今天，世界上已有108国家给予承认，但中国从没有承认过它，这个“国家”就是科索沃。
+>
+> 基于此，本编辑在整理时保持对科索沃是争议地区的论断。
+>
+> ——摘自[从中国一直不承认的这个国家，说说南斯拉夫悲剧!](http://www.sohu.com/a/124419433_425345)
+
+5.北马其顿共和国
+
+> 2018年6月，前南斯拉夫马其顿共和国和希腊领导人在位于两国（以及阿尔巴尼亚）边境的普雷斯帕湖就国名争端签署协议。协议规定，待双方国会通过，前南斯拉夫马其顿共和国将更名为“北马其顿共和国”。在2018年9月举行的一次公投中，前南斯拉夫的马其顿共和国国会以及该国公民同意更名为“北马其顿共和国”。
+>
+> ——摘自[结束28年国名争端 希腊批准前南马其顿更名为“北马其顿共和国”](https://news.un.org/zh/story/2019/01/1027432)
 
 ### 亚洲
 
