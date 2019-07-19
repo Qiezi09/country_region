@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2019-07-19 03:03:58
+-- Generation Time: 2019-07-19 05:57:30
 -- 服务器版本： 5.6.10
 -- PHP Version: 7.1.23
 
@@ -8770,7 +8770,7 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (49, 1, '744', 'SJ', 'SJM', '斯瓦尔巴岛和扬马延岛', '斯瓦尔巴岛和扬马延岛', 'Svalbard and Jan Mayen', 'Svalbard and Jan Mayen', 3),
 (50, 0, '398', 'KZ', 'KAZ', '哈萨克斯坦', '哈萨克斯坦共和国', 'Kazakhstan', 'The Republic of Kazakhstan', 2),
 (51, 0, '268', 'GE', 'GEO', '格鲁吉亚', '格鲁吉亚', 'Georgia', 'Georgia', 2),
-(52, 0, '804', 'UA', 'UKR', '乌克兰', '乌克兰', 'Ukraine', '', 3),
+(52, 0, '804', 'UA', 'UKR', '乌克兰', '乌克兰', 'Ukraine', 'Ukraine', 3),
 (53, 0, '498', 'MD', 'MDA', '摩尔多瓦', '摩尔多瓦共和国', 'Moldova', 'The Republic of Moldova', 3),
 (54, 0, '246', 'FI', 'FIN', '芬兰', '芬兰共和国', 'Finland', 'The Republic of Finland', 3),
 (55, 1, '248', 'AX', 'ALA', '奥兰群岛', '奥兰群岛', 'Aland Islands', 'Aland Islands', 3),
@@ -8818,7 +8818,7 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (97, 1, '260', 'TF', 'ATF', '法属南部领地', '法属南部和南极领地', 'French Southern Territories', 'French Southern Territories', 4),
 (98, 1, '334', 'HM', 'HMD', '赫德岛和麦克唐纳群岛', '赫德岛和麦克唐纳群岛', 'Heard Island and McDonald Islands', 'Heard Island and McDonald Islands', 4),
 (99, 1, '166', 'CC', 'CCK', '科科斯群岛', '科科斯基林群岛', 'Cocos Islands', 'Cocos [Keeling] Islands', 2),
-(100, 0, '0', 'PW', '', '帕劳', '', 'Palau', '', 5),
+(100, 0, '585', 'PW', 'PLW', '帕劳', '帕劳共和国', 'Palau', 'The Republic of Palau', 5),
 (101, 0, '704', 'VN', 'VNM', '越南', '越南社会主义共和国', 'Vietnam', 'The Socialist Republic of Vietnam', 2),
 (102, 0, '626', 'TL', 'TLS', '东帝汶', '东帝汶民主共和国', 'East Timor', 'The Democratic Republic of Timor-Leste', 2),
 (103, 0, '418', 'LA', 'LAO', '老挝', '老挝人民民主共和国', 'Laos', 'The Lao People''s Democratic Republic', 2),
@@ -8970,8 +8970,7 @@ INSERT INTO `countries` (`id`, `country_or_region`, `iso_numeric`, `iso_code_2`,
 (249, 1, '581', 'UM', 'UMI', '美国本土外小岛屿', '美国本土外小岛屿（美）', 'U.S. Minor Outlying Islands', 'The United States Minor Outlying Islands', 5),
 (250, 1, '016', 'AS', 'ASM', '美属萨摩亚', '美属萨摩亚', 'American Samoa', 'American Samoa', 5),
 (251, 0, '124', 'CA', 'CAN', '加拿大', '加拿大', 'Canada', 'Canada', 6),
-(253, 1, '010', 'AQ', 'ATA', '南极洲', '南极洲', 'Antarctica', 'Antarctica', 4),
-(258, 0, '', '', '', '', '', NULL, '', 0);
+(253, 1, '010', 'AQ', 'ATA', '南极洲', '南极洲', 'Antarctica', 'Antarctica', 4);
 
 -- --------------------------------------------------------
 

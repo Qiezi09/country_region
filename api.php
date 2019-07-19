@@ -15,10 +15,13 @@ $connection = new Mysql($config);
 $type = !empty($_GET['type']) ? $_GET['type'] : '';
 if ($type == 'all_countries') {
     $rows = $connection->fetchAll(
-        "SELECT * FROM countries ORDER BY `cn_name` ASC",
+        "SELECT * FROM countries ORDER BY `country_or_region`,`en_name` ASC",
         \Phalcon\Db::FETCH_ASSOC
     );
     $total = $connection->fetchColumn("SELECT count(*) FROM countries");
+    $total_country = $connection->fetchColumn("SELECT count(*) FROM countries WHERE `country_or_region` = 0 ");
+    $total_region = $connection->fetchColumn("SELECT count(*) FROM countries WHERE `country_or_region` = 1 ");
+    $total = '截至目前（'.date("Y-m-d", time()).'），全球有 '.$total.' 个国家和地区，其中国家有：'. $total_country .' 个，地区有：'.$total_region.' 个';
     $return = ['code' => 0, 'data' => $rows, 'total' => $total];
     echo json_encode($return);
 }
