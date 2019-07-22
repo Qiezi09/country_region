@@ -1,3 +1,4 @@
 /vendor/
 ._*
 .DS_Store
+config.php
