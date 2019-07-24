@@ -46,7 +46,7 @@
                     if (result.code == 0) {
                         html = '';
                         for (var p in result.data) {
-                            html = html + "<option class=\"continents\" value=" + result.data[p].ename + " data-id=" + result.data[p].id + ">" + result.data[p].name + "（" + result.data[p].ename + "）</option>";
+                            html = html + "<option class=\"continents\" value=" + result.data[p].en_name + " data-id=" + result.data[p].id + ">" + result.data[p].cn_name + "（" + result.data[p].en_name + "）</option>";
                         }
                         $('#continents').html(html);
                         $('#continents_count').text('(' + result.total + ')');
@@ -103,7 +103,7 @@
                         if (result.code == 0) {
                             html = '';
                             for (var p in result.data) {
-                                html = html + "<option class=\"states\" value=" + result.data[p].ename + " data-id=" + result.data[p].id + ">" + result.data[p].name + "（" + result.data[p].ename + "）</option>";
+                                html = html + "<option class=\"states\" value=" + result.data[p].en_name + " data-id=" + result.data[p].id + ">" + result.data[p].cn_name + "（" + result.data[p].en_name + "）</option>";
                             }
                             $('#states').html(html);
                             $('#states_count').text('(' + result.total + ')');
@@ -126,7 +126,7 @@
                         if (result.code == 0) {
                             html = '';
                             for (var p in result.data) {
-                                html = html + "<option class=\"cities\" value=" + result.data[p].ename + " data-id=" + result.data[p].id + ">" + result.data[p].name + "（" + result.data[p].ename + "）</option>";
+                                html = html + "<option class=\"cities\" value=" + result.data[p].en_name + " data-id=" + result.data[p].id + ">" + result.data[p].cn_name + "（" + result.data[p].en_name + "）</option>";
                             }
                             $('#cities').html(html);
                         } else {

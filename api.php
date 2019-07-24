@@ -29,7 +29,7 @@ if ($type == 'all_countries') {
 //大洲
 if ($type == 'continents') {
     $rows = $connection->fetchAll(
-        "SELECT * FROM continents ORDER BY `ename` ASC",
+        "SELECT * FROM continents ORDER BY `en_name` ASC",
         \Phalcon\Db::FETCH_ASSOC
     );
     $total = $connection->fetchColumn("SELECT count(*) FROM continents");
@@ -55,7 +55,7 @@ if ($type == 'countries') {
 //州或省份
 if ($type == 'states') {
     $rows = $connection->fetchAll(
-        "SELECT * FROM states WHERE `country_id` = " . $_GET['code'] . "  ORDER BY `ename` ASC",
+        "SELECT * FROM states WHERE `country_id` = " . $_GET['code'] . "  ORDER BY `en_name` ASC",
         \Phalcon\Db::FETCH_ASSOC
     );
     $total = $connection->fetchColumn("SELECT count(*) FROM states WHERE `country_id` = " . $_GET['code']);
@@ -65,7 +65,7 @@ if ($type == 'states') {
 
 if ($type == 'cities') {
     $rows = $connection->fetchAll(
-        "SELECT * FROM cities WHERE `state_id` = " . $_GET['code'] . "  ORDER BY `ename` ASC",
+        "SELECT * FROM cities WHERE `state_id` = " . $_GET['code'] . "  ORDER BY `en_name` ASC",
         \Phalcon\Db::FETCH_ASSOC
     );
     $total = $connection->fetchColumn("SELECT count(*) FROM cities WHERE `state_id` = " . $_GET['code']);

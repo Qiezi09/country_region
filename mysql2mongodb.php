@@ -62,6 +62,7 @@ if (!empty($argv[1])) {
                     [
                         'skip' => $skip,
                         'limit' => $limit,
+                        'sort' => ['_id' => 1],
                         'projection' => [
                             'continent_id' => 1,
                         ],
@@ -90,6 +91,7 @@ if (!empty($argv[1])) {
                     [
                         'skip' => $skip,
                         'limit' => $limit,
+                        'sort' => ['_id' => 1],
                         'projection' => [
                             'country_id' => 1,
                         ],
@@ -99,7 +101,7 @@ if (!empty($argv[1])) {
                     $continent = $di->get('mongo')->geoip_countries->findOne(['id' => $restaurant['country_id']]); //查询所属国家的数据
                     $updateResult = $di->get('mongo')->geoip_states->updateOne(
                         ['_id' => $restaurant['_id']],
-                        ['$set' => ['continent_mongo_id' => $continent['_id']]]
+                        ['$set' => ['country_mongo_id' => $continent['_id']]]
                     );
                     printf("Matched %d document(s)\n", $updateResult->getMatchedCount());
                     printf("Modified %d document(s)\n", $updateResult->getModifiedCount());
@@ -109,15 +111,17 @@ if (!empty($argv[1])) {
         //城市与省之间建立关系
         if ($argv[2] == 'city') {
             $total = $di->get('mongo')->geoip_cities->count();
-            $limit = 50;
+            $limit = 100;
             $pageTotal = ceil($total / $limit);
             for ($page = 1; $page <= $pageTotal; $page++) {
                 $skip = ($page - 1) * $limit;
+                echo '页码:'.$skip.PHP_EOL;
                 $cursor = $di->get('mongo')->geoip_cities->find(
                     [],
                     [
                         'skip' => $skip,
                         'limit' => $limit,
+                        'sort' => ['_id' => 1],
                         'projection' => [
                             'state_id' => 1,
                         ],
@@ -127,7 +131,7 @@ if (!empty($argv[1])) {
                     $continent = $di->get('mongo')->geoip_states->findOne(['id' => $restaurant['state_id']]); //查询所属省的数据
                     $updateResult = $di->get('mongo')->geoip_cities->updateOne(
                         ['_id' => $restaurant['_id']],
-                        ['$set' => ['continent_mongo_id' => $continent['_id']]]
+                        ['$set' => ['state_mongo_id' => $continent['_id']]]
                     );
                     printf("Matched %d document(s)\n", $updateResult->getMatchedCount());
                     printf("Modified %d document(s)\n", $updateResult->getModifiedCount());
